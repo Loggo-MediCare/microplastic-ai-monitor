@@ -1,0 +1,761 @@
+{
+ "quick": false,
+ "sweep": [
+  {
+   "flow": 0.1,
+   "fps": 20.0,
+   "exposure_ms": 0.02,
+   "v_mean": 5.555555555555556,
+   "theory_seen": 1.0,
+   "recall": 0.975609756097561,
+   "count_ratio": 0.975609756097561,
+   "naive_ratio": 6.317073170731708,
+   "streak_px": 0.04166666666666667,
+   "imaged_ml_h": 5.853658536585366,
+   "max_imaging_ml_min": 0.7372799999999998
+  },
+  {
+   "flow": 0.25,
+   "fps": 20.0,
+   "exposure_ms": 0.02,
+   "v_mean": 13.888888888888891,
+   "theory_seen": 1.0,
+   "recall": 0.975,
+   "count_ratio": 0.975,
+   "naive_ratio": 2.425,
+   "streak_px": 0.10416666666666669,
+   "imaged_ml_h": 14.625,
+   "max_imaging_ml_min": 0.7372799999999998
+  },
+  {
+   "flow": 0.5,
+   "fps": 20.0,
+   "exposure_ms": 0.02,
+   "v_mean": 27.777777777777782,
+   "theory_seen": 0.9977916104226885,
+   "recall": 0.9411764705882353,
+   "count_ratio": 0.9607843137254902,
+   "naive_ratio": 1.2941176470588236,
+   "streak_px": 0.20833333333333337,
+   "imaged_ml_h": 28.235294117647058,
+   "max_imaging_ml_min": 0.7372799999999998
+  },
+  {
+   "flow": 1.0,
+   "fps": 20.0,
+   "exposure_ms": 0.02,
+   "v_mean": 55.555555555555564,
+   "theory_seen": 0.637956392358632,
+   "recall": 0.6185567010309279,
+   "count_ratio": 0.6597938144329897,
+   "naive_ratio": 0.9484536082474226,
+   "streak_px": 0.41666666666666674,
+   "imaged_ml_h": 37.11340206185567,
+   "max_imaging_ml_min": 0.7372799999999998
+  },
+  {
+   "flow": 2.0,
+   "fps": 20.0,
+   "exposure_ms": 0.02,
+   "v_mean": 111.11111111111113,
+   "theory_seen": 0.34539149454628193,
+   "recall": 0.29906542056074764,
+   "count_ratio": 0.29906542056074764,
+   "naive_ratio": 0.32242990654205606,
+   "streak_px": 0.8333333333333335,
+   "imaged_ml_h": 35.88785046728972,
+   "max_imaging_ml_min": 0.7372799999999998
+  },
+  {
+   "flow": 1.0,
+   "fps": 60,
+   "exposure_ms": 0.02,
+   "v_mean": 55.555555555555564,
+   "theory_seen": 1.0,
+   "recall": 0.9512195121951219,
+   "count_ratio": 0.9512195121951219,
+   "naive_ratio": 1.7317073170731707,
+   "streak_px": 0.41666666666666674,
+   "imaged_ml_h": 57.073170731707314,
+   "max_imaging_ml_min": 2.2118399999999996
+  },
+  {
+   "flow": 2.0,
+   "fps": 60,
+   "exposure_ms": 0.02,
+   "v_mean": 111.11111111111113,
+   "theory_seen": 0.8655692580763016,
+   "recall": 0.7317073170731707,
+   "count_ratio": 0.7560975609756098,
+   "naive_ratio": 0.9146341463414634,
+   "streak_px": 0.8333333333333335,
+   "imaged_ml_h": 87.80487804878048,
+   "max_imaging_ml_min": 2.2118399999999996
+  },
+  {
+   "flow": 0.25,
+   "fps": 20.0,
+   "exposure_ms": 5.0,
+   "v_mean": 13.888888888888891,
+   "theory_seen": 1.0,
+   "recall": 0.6666666666666666,
+   "count_ratio": 0.7666666666666667,
+   "naive_ratio": 3.433333333333333,
+   "streak_px": 26.04166666666667,
+   "imaged_ml_h": 10.0,
+   "max_imaging_ml_min": 0.7372799999999998
+  },
+  {
+   "flow": 0.5,
+   "fps": 20.0,
+   "exposure_ms": 5.0,
+   "v_mean": 27.777777777777782,
+   "theory_seen": 0.9977916104226885,
+   "recall": 0.23076923076923078,
+   "count_ratio": 0.5897435897435898,
+   "naive_ratio": 0.7692307692307693,
+   "streak_px": 52.08333333333334,
+   "imaged_ml_h": 6.923076923076923,
+   "max_imaging_ml_min": 0.7372799999999998
+  }
+ ],
+ "bubbles": {
+  "with bubble class": {
+   "count_ratio": 1.0,
+   "bubbles_as_plastic": 0,
+   "bubble_tracks": 15,
+   "true_plastic": 61
+  },
+  "without bubble class": {
+   "count_ratio": 1.9672131147540983,
+   "bubbles_as_plastic": 14,
+   "bubble_tracks": 0,
+   "true_plastic": 61
+  }
+ },
+ "fouling": [
+  {
+   "hours": 0,
+   "transmission": 1.0,
+   "transmission_est": 0.9992210395795965,
+   "stuck": 0,
+   "recall": 0.9354838709677419,
+   "count_ratio": 0.9838709677419355,
+   "count_ratio_no_filter": 0.9838709677419355,
+   "stationary_tracks": 0
+  },
+  {
+   "hours": 24,
+   "transmission": 0.7408182206817179,
+   "transmission_est": 0.7436519003695486,
+   "stuck": 14,
+   "recall": 0.96,
+   "count_ratio": 1.08,
+   "count_ratio_no_filter": 1.2,
+   "stationary_tracks": 13
+  },
+  {
+   "hours": 48,
+   "transmission": 0.5488116360940265,
+   "transmission_est": 0.5532776191874542,
+   "stuck": 28,
+   "recall": 0.8867924528301887,
+   "count_ratio": 0.9622641509433962,
+   "count_ratio_no_filter": 1.169811320754717,
+   "stationary_tracks": 27
+  },
+  {
+   "hours": 72,
+   "transmission": 0.4065696597405991,
+   "transmission_est": 0.41619857122142256,
+   "stuck": 43,
+   "recall": 0.8636363636363636,
+   "count_ratio": 0.9545454545454546,
+   "count_ratio_no_filter": 1.3863636363636365,
+   "stationary_tracks": 63
+  }
+ ],
+ "spikes": {
+  "round tube 1 mm ID | 30 um": {
+   "expected": 83.33333333333333,
+   "passed": 87,
+   "counted": 94,
+   "recovery": 1.1280000000000001,
+   "efficiency": 1.0804597701149425
+  },
+  "round tube 1 mm ID | 100 um": {
+   "expected": 83.33333333333333,
+   "passed": 96,
+   "counted": 110,
+   "recovery": 1.32,
+   "efficiency": 1.1458333333333333
+  },
+  "round tube 1 mm ID | 250 um": {
+   "expected": 83.33333333333333,
+   "passed": 78,
+   "counted": 176,
+   "recovery": 2.112,
+   "efficiency": 2.2564102564102564
+  },
+  "flat-walled cell 1 x 0.3 mm | 30 um": {
+   "expected": 83.33333333333333,
+   "passed": 78,
+   "counted": 79,
+   "recovery": 0.9480000000000001,
+   "efficiency": 1.0128205128205128
+  },
+  "flat-walled cell 1 x 0.3 mm | 100 um": {
+   "expected": 83.33333333333333,
+   "passed": 82,
+   "counted": 81,
+   "recovery": 0.9720000000000001,
+   "efficiency": 0.9878048780487805
+  },
+  "flat-walled cell 1 x 0.3 mm | 250 um": {
+   "expected": 83.33333333333333,
+   "passed": 86,
+   "counted": 92,
+   "recovery": 1.104,
+   "efficiency": 1.069767441860465
+  }
+ },
+ "concentration": {
+  "round tube 1 mm ID": {
+   "true_per_ml": 1200.0,
+   "naive_per_ml": 1284.0,
+   "calibrated_per_ml": 972.7272727272726,
+   "recovery_100um": 1.32
+  },
+  "flat-walled cell 1 x 0.3 mm": {
+   "true_per_ml": 1524.0,
+   "naive_per_ml": 1560.0,
+   "calibrated_per_ml": 1604.938271604938,
+   "recovery_100um": 0.9720000000000001
+  }
+ },
+ "counting": {
+  "eff_ml_min": 0.47058823529411764,
+  "flow": 0.5,
+  "rows": [
+   {
+    "per_l": 1,
+    "hours_direct": 3401.4166666666656,
+    "hours_preconc_1000x": 3.401416666666666
+   },
+   {
+    "per_l": 10,
+    "hours_direct": 340.14166666666654,
+    "hours_preconc_1000x": 0.34014166666666656
+   },
+   {
+    "per_l": 100,
+    "hours_direct": 34.01416666666666,
+    "hours_preconc_1000x": 0.03401416666666666
+   },
+   {
+    "per_l": 1000,
+    "hours_direct": 3.401416666666666,
+    "hours_preconc_1000x": 0.0034014166666666663
+   },
+   {
+    "per_l": 10000,
+    "hours_direct": 0.34014166666666656,
+    "hours_preconc_1000x": 0.00034014166666666655
+   }
+  ]
+ },
+ "iot": {
+  "payloads": [
+   {
+    "station": "river_below_wwtp",
+    "seq": 1,
+    "flow_ml_min": 0.253,
+    "status": "ok",
+    "duration_s": 3.0,
+    "volume_ml": 0.0127,
+    "plastic": 17,
+    "plastic_by_class": {
+     "PP": 4,
+     "PET": 6,
+     "PS": 4,
+     "PE": 3
+    },
+    "plastic_by_size_um": {
+     "20-50": 9,
+     "50-100": 6,
+     "100-300": 2,
+     ">300": 0
+    },
+    "per_l": 1382.2,
+    "per_l_ci95": [
+     804.7,
+     2213.1
+    ],
+    "health": {
+     "transmission": 1.0,
+     "stuck_objects": 0,
+     "bubbles": 0,
+     "recovery_used": 0.9720000000000001
+    },
+    "alarms": [],
+    "_true_plastic_crossing": 17,
+    "_true_per_l": 1500.0,
+    "_transmission_true": 1.0,
+    "_event": ""
+   },
+   {
+    "station": "river_below_wwtp",
+    "seq": 2,
+    "flow_ml_min": 0.243,
+    "status": "ok",
+    "duration_s": 3.0,
+    "volume_ml": 0.0122,
+    "plastic": 15,
+    "plastic_by_class": {
+     "PET": 4,
+     "PE": 6,
+     "PP": 3,
+     "PS": 2
+    },
+    "plastic_by_size_um": {
+     "20-50": 5,
+     "50-100": 8,
+     "100-300": 2,
+     ">300": 0
+    },
+    "per_l": 1268.3,
+    "per_l_ci95": [
+     709.3,
+     2092.0
+    ],
+    "health": {
+     "transmission": 0.88,
+     "stuck_objects": 2,
+     "bubbles": 0,
+     "recovery_used": 0.9720000000000001
+    },
+    "alarms": [],
+    "_true_plastic_crossing": 15,
+    "_true_per_l": 1500.0,
+    "_transmission_true": 0.88,
+    "_event": ""
+   },
+   {
+    "station": "river_below_wwtp",
+    "seq": 3,
+    "flow_ml_min": 0.245,
+    "status": "ok",
+    "duration_s": 3.0,
+    "volume_ml": 0.0123,
+    "plastic": 15,
+    "plastic_by_class": {
+     "PS": 1,
+     "PE": 7,
+     "PET": 4,
+     "PP": 3
+    },
+    "plastic_by_size_um": {
+     "20-50": 8,
+     "50-100": 6,
+     "100-300": 1,
+     ">300": 0
+    },
+    "per_l": 1258.8,
+    "per_l_ci95": [
+     704.0,
+     2076.4
+    ],
+    "health": {
+     "transmission": 0.774,
+     "stuck_objects": 4,
+     "bubbles": 0,
+     "recovery_used": 0.9720000000000001
+    },
+    "alarms": [],
+    "_true_plastic_crossing": 15,
+    "_true_per_l": 1500.0,
+    "_transmission_true": 0.774,
+    "_event": ""
+   },
+   {
+    "station": "river_below_wwtp",
+    "seq": 4,
+    "flow_ml_min": 0.251,
+    "status": "ok",
+    "duration_s": 3.0,
+    "volume_ml": 0.0126,
+    "plastic": 80,
+    "plastic_by_class": {
+     "PP": 19,
+     "PE": 35,
+     "PET": 19,
+     "PS": 7
+    },
+    "plastic_by_size_um": {
+     "20-50": 37,
+     "50-100": 26,
+     "100-300": 17,
+     ">300": 0
+    },
+    "per_l": 6551.8,
+    "per_l_ci95": [
+     5195.0,
+     8154.4
+    ],
+    "health": {
+     "transmission": 0.685,
+     "stuck_objects": 9,
+     "bubbles": 2,
+     "recovery_used": 0.9720000000000001
+    },
+    "alarms": [
+     "concentration_high",
+     "window_fouled"
+    ],
+    "_true_plastic_crossing": 80,
+    "_true_per_l": 6000.0,
+    "_transmission_true": 0.98,
+    "_event": "spike"
+   },
+   {
+    "station": "river_below_wwtp",
+    "seq": 5,
+    "flow_ml_min": 0.257,
+    "status": "ok",
+    "duration_s": 3.0,
+    "volume_ml": 0.0128,
+    "plastic": 96,
+    "plastic_by_class": {
+     "PS": 19,
+     "PE": 42,
+     "PET": 14,
+     "PP": 21
+    },
+    "plastic_by_size_um": {
+     "20-50": 50,
+     "50-100": 26,
+     "100-300": 20,
+     ">300": 0
+    },
+    "per_l": 7691.6,
+    "per_l_ci95": [
+     6230.0,
+     9392.8
+    ],
+    "health": {
+     "transmission": 0.864,
+     "stuck_objects": 2,
+     "bubbles": 0,
+     "recovery_used": 0.9720000000000001
+    },
+    "alarms": [
+     "concentration_high"
+    ],
+    "_true_plastic_crossing": 97,
+    "_true_per_l": 6000.0,
+    "_transmission_true": 0.862,
+    "_event": "spike"
+   },
+   {
+    "station": "river_below_wwtp",
+    "seq": 6,
+    "flow_ml_min": 0.252,
+    "status": "ok",
+    "duration_s": 3.0,
+    "volume_ml": 0.0126,
+    "plastic": 21,
+    "plastic_by_class": {
+     "PP": 4,
+     "PET": 5,
+     "PE": 7,
+     "PS": 5
+    },
+    "plastic_by_size_um": {
+     "20-50": 10,
+     "50-100": 7,
+     "100-300": 4,
+     ">300": 0
+    },
+    "per_l": 1712.1,
+    "per_l_ci95": [
+     1059.4,
+     2617.3
+    ],
+    "health": {
+     "transmission": 0.76,
+     "stuck_objects": 4,
+     "bubbles": 0,
+     "recovery_used": 0.9720000000000001
+    },
+    "alarms": [],
+    "_true_plastic_crossing": 19,
+    "_true_per_l": 1500.0,
+    "_transmission_true": 0.759,
+    "_event": ""
+   },
+   {
+    "station": "river_below_wwtp",
+    "seq": 7,
+    "flow_ml_min": 0.25,
+    "status": "ok",
+    "duration_s": 3.0,
+    "volume_ml": 0.0125,
+    "plastic": 19,
+    "plastic_by_class": {
+     "PET": 4,
+     "PP": 5,
+     "PE": 7,
+     "PS": 3
+    },
+    "plastic_by_size_um": {
+     "20-50": 8,
+     "50-100": 6,
+     "100-300": 5,
+     ">300": 0
+    },
+    "per_l": 1561.9,
+    "per_l_ci95": [
+     939.9,
+     2439.3
+    ],
+    "health": {
+     "transmission": 0.67,
+     "stuck_objects": 6,
+     "bubbles": 10,
+     "recovery_used": 0.9720000000000001
+    },
+    "alarms": [
+     "window_fouled",
+     "bubbles_check_degasser"
+    ],
+    "_true_plastic_crossing": 17,
+    "_true_per_l": 1500.0,
+    "_transmission_true": 0.98,
+    "_event": "bubbles"
+   },
+   {
+    "station": "river_below_wwtp",
+    "seq": 8,
+    "flow_ml_min": 0.247,
+    "status": "ok",
+    "duration_s": 3.0,
+    "volume_ml": 0.0124,
+    "plastic": 16,
+    "plastic_by_class": {
+     "PS": 3,
+     "PET": 7,
+     "PE": 3,
+     "PP": 3
+    },
+    "plastic_by_size_um": {
+     "20-50": 3,
+     "50-100": 9,
+     "100-300": 4,
+     ">300": 0
+    },
+    "per_l": 1332.7,
+    "per_l_ci95": [
+     761.2,
+     2164.3
+    ],
+    "health": {
+     "transmission": 0.862,
+     "stuck_objects": 2,
+     "bubbles": 0,
+     "recovery_used": 0.9720000000000001
+    },
+    "alarms": [],
+    "_true_plastic_crossing": 16,
+    "_true_per_l": 1500.0,
+    "_transmission_true": 0.862,
+    "_event": ""
+   },
+   {
+    "station": "river_below_wwtp",
+    "seq": 9,
+    "flow_ml_min": 0.25,
+    "status": "ok",
+    "duration_s": 3.0,
+    "volume_ml": 0.0125,
+    "plastic": 20,
+    "plastic_by_class": {
+     "PE": 8,
+     "PET": 4,
+     "PP": 5,
+     "PS": 3
+    },
+    "plastic_by_size_um": {
+     "20-50": 13,
+     "50-100": 6,
+     "100-300": 1,
+     ">300": 0
+    },
+    "per_l": 1644.8,
+    "per_l_ci95": [
+     1004.3,
+     2540.4
+    ],
+    "health": {
+     "transmission": 0.76,
+     "stuck_objects": 4,
+     "bubbles": 0,
+     "recovery_used": 0.9720000000000001
+    },
+    "alarms": [],
+    "_true_plastic_crossing": 18,
+    "_true_per_l": 1500.0,
+    "_transmission_true": 0.759,
+    "_event": ""
+   },
+   {
+    "station": "river_below_wwtp",
+    "seq": 10,
+    "flow_ml_min": 0.243,
+    "status": "ok",
+    "duration_s": 3.0,
+    "volume_ml": 0.0122,
+    "plastic": 14,
+    "plastic_by_class": {
+     "PE": 2,
+     "PP": 6,
+     "PS": 3,
+     "PET": 3
+    },
+    "plastic_by_size_um": {
+     "20-50": 6,
+     "50-100": 5,
+     "100-300": 3,
+     ">300": 0
+    },
+    "per_l": 1184.9,
+    "per_l_ci95": [
+     647.3,
+     1988.2
+    ],
+    "health": {
+     "transmission": 0.669,
+     "stuck_objects": 6,
+     "bubbles": 0,
+     "recovery_used": 0.9720000000000001
+    },
+    "alarms": [
+     "window_fouled"
+    ],
+    "_true_plastic_crossing": 14,
+    "_true_per_l": 1500.0,
+    "_transmission_true": 0.98,
+    "_event": ""
+   },
+   {
+    "station": "river_below_wwtp",
+    "seq": 11,
+    "flow_ml_min": 0.0,
+    "status": "no_flow",
+    "alarms": [
+     "flow_low"
+    ],
+    "_transmission_true": 0.862,
+    "_event": "pump_fault"
+   },
+   {
+    "station": "river_below_wwtp",
+    "seq": 12,
+    "flow_ml_min": 0.255,
+    "status": "ok",
+    "duration_s": 3.0,
+    "volume_ml": 0.0128,
+    "plastic": 16,
+    "plastic_by_class": {
+     "PS": 4,
+     "PP": 2,
+     "PET": 4,
+     "PE": 6
+    },
+    "plastic_by_size_um": {
+     "20-50": 10,
+     "50-100": 1,
+     "100-300": 5,
+     ">300": 0
+    },
+    "per_l": 1289.1,
+    "per_l_ci95": [
+     736.4,
+     2093.6
+    ],
+    "health": {
+     "transmission": 0.76,
+     "stuck_objects": 4,
+     "bubbles": 0,
+     "recovery_used": 0.9720000000000001
+    },
+    "alarms": [],
+    "_true_plastic_crossing": 14,
+    "_true_per_l": 1500.0,
+    "_transmission_true": 0.759,
+    "_event": ""
+   }
+  ],
+  "wipes": 3,
+  "topics": [
+   "mpmon/river_below_wwtp/probe/alarm",
+   "mpmon/river_below_wwtp/probe/telemetry"
+  ],
+  "n_messages": 17,
+  "action_level": 3000.0,
+  "commands_tested": {
+   "before": [
+    3,
+    0.25,
+    0.9720000000000001
+   ],
+   "after": [
+    4,
+    0.3,
+    0.9
+   ]
+  }
+ },
+ "runtime_s": 485.0044586658478,
+ "geometry": {
+  "round tube 1 mm ID": {
+   "true": 100,
+   "tracked": 107,
+   "recall": 0.88,
+   "count_ratio": 1.07,
+   "naive_ratio": 6.48,
+   "poly_track": 1.0,
+   "poly_frame": 1.0,
+   "by_size": {
+    "20-50 um": 0.5909090909090909,
+    "50-100 um": 0.96875,
+    "100-300 um": 0.9736842105263158,
+    "300- um": 0.875
+   },
+   "theory": {
+    "seen": 1.0,
+    "seen_in_focus": 0.4871710200105348
+   },
+   "v_mean": 5.305164769729845
+  },
+  "flat-walled cell 1 x 0.3 mm": {
+   "true": 127,
+   "tracked": 130,
+   "recall": 1.0,
+   "count_ratio": 1.0236220472440944,
+   "naive_ratio": 2.763779527559055,
+   "poly_track": 1.0,
+   "poly_frame": 1.0,
+   "by_size": {
+    "20-50 um": 1.0,
+    "50-100 um": 1.0,
+    "100-300 um": 1.0,
+    "300- um": 1.0
+   },
+   "theory": {
+    "seen": 1.0,
+    "seen_in_focus": 1.0
+   },
+   "v_mean": 13.888888888888891
+  }
+ }
+}
